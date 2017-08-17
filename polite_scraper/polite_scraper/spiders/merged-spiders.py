@@ -12,6 +12,10 @@ class MergedJobs(scrapy.Spider):
         "cloudera" : { "url" : "https://jobs.jobvite.com/cloudera/search?l=Hungary+%3E+Budapest&c=&q=",
                        "jobLinkSelect" : "//td[contains(@class,'jv-job-list-name')]/a/@href",
                        "jobtitle" : "//h2/text()",
+                       "description" : "//div[contains(@class, 'jv-job-detail-description')]"},
+        "nng"      : { "url" : "https://www.nng.com/jobs/",
+                       "jobLinkSelect" : "//td[contains(@class,'jv-job-list-name')]/a/@href",
+                       "jobtitle" : "//h2[contains(@class, 'jv-header')]/text()",
                        "description" : "//div[contains(@class, 'jv-job-detail-description')]"}
     }
     def start_requests(self):
