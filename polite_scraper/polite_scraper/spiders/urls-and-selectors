@@ -1,0 +1,2 @@
+location|url|jobLinkSelect|jobtitle|description
+chemaxon|https://www.chemaxon.com/jobs/|//div[contains(@class, 'masonry-item')]/a/@href|//h1/text()|//div[contains(@class,'entry')]

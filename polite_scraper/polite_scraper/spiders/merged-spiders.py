@@ -1,5 +1,5 @@
 import scrapy
-
+import csv
 
 class MergedJobs(scrapy.Spider):
     name = "merged"
