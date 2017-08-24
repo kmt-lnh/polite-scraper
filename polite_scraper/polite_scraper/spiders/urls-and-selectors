@@ -1,2 +1,4 @@
 location|url|jobLinkSelect|jobtitle|description
 chemaxon|https://www.chemaxon.com/jobs/|//div[contains(@class, 'masonry-item')]/a/@href|//h1/text()|//div[contains(@class,'entry')]
+cloudera|https://jobs.jobvite.com/cloudera/search?l=Hungary+%3E+Budapest&c=&q=|//td[contains(@class,'jv-job-list-name')]/a/@href|//h2/text()|//div[contains(@class, 'jv-job-detail-description')]
+nng|https://www.nng.com/jobs/|//td[contains(@class,'jv-job-list-name')]/a/@href|//h2[contains(@class, 'jv-header')]/text()|//div[contains(@class, 'jv-job-detail-description')]
